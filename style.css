@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2fa79d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.card-perfil {
+    background-color: rgb(206, 203, 203);
+    width: 350px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.foto-perfil {
+border-radius: 50%;
+    border: 3px solid #005f96;
+    width: 120px; 
+    height: 120px;
+    object-fit: cover;
+}
+
+.nome {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.cargo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #0177bb;
+}
+
+.bio {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.botoes {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: black;
+    color: #d6e5ee;
+    border-radius: 5px;
+}
+.btn:hover {
+    background-color: #d6e5ee;
+    color: black;
+}
